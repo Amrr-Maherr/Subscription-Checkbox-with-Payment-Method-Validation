@@ -14,41 +14,49 @@
 </head>
 <body>
 <div class="container-fluid">
-    <div class="container">
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="subscribeCheckbox">
-            <label class="form-check-label" for="subscribeCheckbox">
-                Subscribe
-            </label>
-        </div>
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="paymentMethod" id="visaRadio">
-                    <label class="form-check-label" for="visaRadio">
-                        <i class="fa-brands fa-cc-visa"></i> Visa
+    <div class="container my-5 border border-primary p-5">
+        <div class="row my-3">
+            <div class="col-12 d-flex align-items-center justify-content-center">
+                <div class="form-check lead fs-3">
+                    <input class="form-check-input" type="checkbox" value="" id="subscribeCheckbox">
+                    <label class="form-check-label lead fs-3 text-primary" for="subscribeCheckbox">
+                        Subscribe
                     </label>
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div class="form-check">
+        </div>
+        <div class="row my-3">
+            <div class="col-lg-4 col-12 my-2 d-flex align-items-center justify-content-center">
+                <div class="form-check lead fs-3">
+                    <input class="form-check-input" type="radio" name="paymentMethod" id="visaRadio">
+                    <label class="form-check-label" for="visaRadio">
+                        <i class="fa-brands fa-cc-visa lead fs-3"></i> Visa
+                    </label>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12 my-2 d-flex align-items-center justify-content-center">
+                <div class="form-check lead fs-3">
                     <input class="form-check-input" type="radio" name="paymentMethod" id="masterCardRadio">
                     <label class="form-check-label" for="masterCardRadio">
                         <i class="fa-brands fa-cc-mastercard"></i> MasterCard
                     </label>
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div class="form-check">
+            <div class="col-lg-4 col-12 my-2 d-flex align-items-center justify-content-center">
+                <div class="form-check lead fs-3">
                     <input class="form-check-input" type="radio" name="paymentMethod" id="paypalRadio">
-                    <label class="form-check-label" for="paypalRadio">
+                    <label class="form-check-label lead fs-3" for="paypalRadio">
                         <i class="fa-brands fa-paypal"></i> PayPal
                     </label>
                 </div>
             </div>
         </div>
-        <div class="button">
-            <button type="button" class="btn btn-success">Submit</button>
+        <div class="row  my-3 ">
+            <div class="col-12 d-flex align-items-center justify-content-center">
+                <div class="button">
+                    <button type="button" class="btn btn-success">Submit</button>
+                </div>
+            </div>
         </div>
     </div>
 </div>
