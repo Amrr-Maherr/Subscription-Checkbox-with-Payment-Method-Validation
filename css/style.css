@@ -1,3 +1,4 @@
 .container-fluid {
     height: 100dvh;
+    /* Set height to 100% of the dynamic viewport height */
 }
