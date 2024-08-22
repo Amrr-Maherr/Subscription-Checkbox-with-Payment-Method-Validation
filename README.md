@@ -9,6 +9,11 @@ This project is a JavaScript-based form for validating user subscription and pay
 - **🔍 Real-Time Validation**: Displays dynamic alerts based on user inputs.
 - **📱 Responsive Design**: Utilizes Bootstrap for a responsive layout.
 
+## 📷 Screenshot
+
+Here is a preview of the project:
+![Project Screenshot](https://github.com/Amrr-Maherr/Subscription-Payment-Validation/blob/master/reademe/Screenshot_22-8-2024_16052_amrr-maherr.github.io.jpeg?raw=true)
+
 ## ⚙️ Technologies
 
 - **JavaScript**: 🧩 For form validation and interaction.
@@ -22,6 +27,7 @@ This project is a JavaScript-based form for validating user subscription and pay
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/your-username/your-repository.git
+
 🛠️ Usage
 Subscribe: Check the subscription checkbox to opt-in.
 Select Payment Method: Choose one of the payment methods (Visa, MasterCard, or PayPal).
